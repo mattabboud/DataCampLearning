@@ -1,2 +1,4 @@
 git clone `GitHub Respository Link` #Clones Repository to Local Project
 git status #Checks status of Git Project
+git add `subpath1/subpath2/filename` #Adds File to staging area (File must exist)
+git commit -m "Message" #Commits Message to Directory with version message "Messageg"
