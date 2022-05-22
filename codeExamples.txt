@@ -20,4 +20,4 @@ git remote rm REMOTENAME #removes remote repository named REMOTENAME
 git pull REMOTEREPOSITORY BRANCHNAME #pull data from the remote repository REMOTEREPOSITORY branch BRANCHNAME to current branch
 git pull origin master #pulls from Origin of Remote Repository to Local Repository Master Branch
 git push origin master #push remote repository to master branch or local repository
-
+Is the the right list????
