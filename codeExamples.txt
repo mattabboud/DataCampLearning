@@ -1,0 +1,2 @@
+git clone `GitHub Respository Link` #Clones Repository to Local Project
+git status #Checks status of Git Project
