@@ -3,7 +3,7 @@ git status #Checks status of Git Project
 git add `subpath1/subpath2/filename` #Adds File to staging area (File must exist)
 git commit -m "Message" #Commits Message to Directory with version message "Messageg"
 git commit #Without the -m and message will open a text file to allow multiline description of the changes
-git add . adds all files
+git add . #adds all files
 git reset HEAD filepath/filename #removes a file commit
 git checkout filepath/filename #removes changes to a file in the working staging area
 git checkout HASHCODE filepath/filename #Restores a previous version of a commit from it's HASH
@@ -13,3 +13,11 @@ git rm filepath/filename #Deletes File from Repository
 git checkout -b BRANCHAME #Creates new Branch called BRANCHNAME ans switch to it
 git merge SOURCEBRANCH DESTINATIONBRANCH #Merge changes between SOURCEBRANCH and DESTINATION
 git init REPOSITORY #created and initializes new git repository REPOSITORY
+git clone SOURCEREPOSITORY NEWREPOSITORY #Clones a repository
+git remote -v Verbose check for origin of git repository
+git remote add REMOTENAME URL #Adds a remote to remote repository REMOTENAME at url URL
+git remote rm REMOTENAME #removes remote repository named REMOTENAME
+git pull REMOTEREPOSITORY BRANCHNAME #pull data from the remote repository REMOTEREPOSITORY branch BRANCHNAME to current branch
+git pull origin master #pulls from Origin of Remote Repository to Local Repository Master Branch
+git push origin master #push remote repository to master branch or local repository
+
