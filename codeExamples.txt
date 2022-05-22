@@ -2,3 +2,11 @@ git clone `GitHub Respository Link` #Clones Repository to Local Project
 git status #Checks status of Git Project
 git add `subpath1/subpath2/filename` #Adds File to staging area (File must exist)
 git commit -m "Message" #Commits Message to Directory with version message "Messageg"
+git commit #Without the -m and message will open a text file to allow multiline description of the changes
+git add . adds all files
+git reset HEAD filepath/filename #removes a file commit
+git checkout filepath/filename #removes changes to a file in the working staging area
+git checkout HASHCODE filepath/filename #Restores a previous version of a commit from it's HASH
+git branch #Lists the number of Branches with the active branch having a * before the name
+git checkout BRANCHNAME #change to branch BRANCHNAME
+git rm filepath/filename #Deletes File from Repository
