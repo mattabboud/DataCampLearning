@@ -10,3 +10,6 @@ git checkout HASHCODE filepath/filename #Restores a previous version of a commit
 git branch #Lists the number of Branches with the active branch having a * before the name
 git checkout BRANCHNAME #change to branch BRANCHNAME
 git rm filepath/filename #Deletes File from Repository
+git checkout -b BRANCHAME #Creates new Branch called BRANCHNAME ans switch to it
+git merge SOURCEBRANCH DESTINATIONBRANCH #Merge changes between SOURCEBRANCH and DESTINATION
+git init REPOSITORY #created and initializes new git repository REPOSITORY
