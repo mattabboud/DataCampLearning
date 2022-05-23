@@ -18,3 +18,12 @@ plt.plot(gdp_cap,life_exp)
 
 # Display the plot
 plt.show()
+
+# Change the line plot below to a scatter git plot
+plt.scatter(gdp_cap, life_exp)
+
+# Put the x-axis on a logarithmic scale
+plt.xcale('log')
+
+# Show plot
+plt.show()
