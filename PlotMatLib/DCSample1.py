@@ -23,7 +23,7 @@ plt.show()
 plt.scatter(gdp_cap, life_exp)
 
 # Put the x-axis on a logarithmic scale
-plt.xcale('log')
+plt.xscale('log')
 
 # Show plot
 plt.show()
