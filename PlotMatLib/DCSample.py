@@ -10,8 +10,7 @@ print('The population array data is: ' + str(pop))
 
 # Import matplotlib.pyplot as plt
 
-import
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 # Make a line plot: year on the x-axis, pop on the y-axis
 plt.plot(year,pop)
